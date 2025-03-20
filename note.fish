@@ -4,6 +4,7 @@ function note
 			bat $EXT_SSD/notes/$argv[1]
 		end
 	else
+		# TODO add '-d' option for removing a note
 		if test $argv[1] = "-l"
 			eza -ahl $EXT_SSD/notes 
 		else

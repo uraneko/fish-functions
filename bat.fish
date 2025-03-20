@@ -1,4 +1,3 @@
 function bat --description 'alias bat=bat -n'
- command bat -n $argv
-        
+	command bat -n $argv
 end
